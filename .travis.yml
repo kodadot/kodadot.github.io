@@ -11,14 +11,14 @@ before_install:
 script:
   - yarn run docs:build
 before_deploy: 
-  - echo 'vue-polkadot.js.org' > docs/.vuepress/dist/CNAME
+  - echo 'kodadot.js.org' > docs/.vuepress/dist/CNAME
 deploy:
   provider: pages
   keep-history: true
   skip_cleanup: true
   local_dir: docs/.vuepress/dist
   github-token: $GITHUB_TOKEN
-  repo: dysonring/dysonring.github.io
+  repo: kodadot/kodadot.github.io
   target-branch: master
   on:
     branch: docs-master
