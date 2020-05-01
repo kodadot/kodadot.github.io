@@ -18,7 +18,7 @@ footer: MIT Licensed | Copyright © 2020 vue-polkadot authors and contributors
 ---
 ## VueJS dashboard for Polkadot and Substrate
 
-This is a collection of Vue.js libraries, utlities and classes that allows for easier use of the Polkadot JS infrastructure inside your apps.
+This is a collection of Vue.js libraries, utlities and classes that allows for easier use of the Polkadot JS infrastructure inside your apps from Vue apps.
 
 <img style="float: right" src="./assets/img/KodaDot_logo_843x843.png" width="200" alt="KodaDot logo" />
 
