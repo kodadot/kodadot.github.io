@@ -37,7 +37,7 @@ Want to hack around and have some play?  [Deploy your VueJS dashboard](/apps)
 
 ## 📦 Available packages
 
-This repository split up into a number of internal packages, namely -
+This repository split up into a number of internal packages -
 
 - [Vue dashboard](/apps) - 📚 Documentation for components - 🏗🚧 <b>Building Stage Two</b> 
 - [Vue libraries](https://vue-polkadot.js.org/vue-ui/) - UI utilities, libraries and VueJS components in use across Ppolkadot/Substrate projects 
