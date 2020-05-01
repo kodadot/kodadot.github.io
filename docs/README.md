@@ -8,7 +8,7 @@ tagline:
 
 # features:
 # - title: VueJS libraries
-#   details: UI utilities, libraries and VueJS components in use across Polkadot and Substrate projects
+#   details: UI utilities, libraries and VueJS components in use across Polkadot and Substrate based networks
 # - title: VueJS wallet - KodaDot
 #   details: Boilerplate wallet - KodaDot - to use with Polkadot and Substrate compatible api
 # - title: VueJS dashboard
@@ -16,7 +16,7 @@ tagline:
 
 footer: MIT Licensed | Copyright © 2020 vue-polkadot authors and contributors
 ---
-## VueJS dashboard for Polkadot and Substrate
+## VueJS dashboard for Polkadot and Substrate networks
 
 This is a collection of Vue.js libraries, utlities and classes that allows for easier use of the Polkadot JS infrastructure inside your apps from Vue apps.
 
