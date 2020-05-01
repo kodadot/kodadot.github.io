@@ -32,8 +32,8 @@ Want to hack around and have some play?  [Deploy your VueJS dashboard](/apps)
 
 ## 🕹 Demo versions
 
-* 👩‍✈️[Stable Release - could be used for production](https://kodadot.netlify.app/)
-* [🚧👷‍♀️ Development preview release - may not work everytime](https://dev-kodadot.netlify.app/)
+* [Stable Release](https://kodadot.netlify.app/)
+* [Development preview release](https://dev-kodadot.netlify.app/), [IPFS version](http://dev-kodadot.on.fleek.co/)
 
 ## 📦 Available packages
 
