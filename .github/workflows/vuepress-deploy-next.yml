@@ -15,7 +15,6 @@ jobs:
       uses: jenkey2011/vuepress-deploy@1.0.1
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: kodadot/kodadot.github.io
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn docs:build
+        BUILD_SCRIPT: ls -la
         BUILD_DIR: .
