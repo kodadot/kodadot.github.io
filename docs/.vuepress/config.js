@@ -30,6 +30,11 @@ module.exports = {
       ['/apps/Transfer/', 'Transfer'],
       ['/apps/Democracy/', 'Democracy'],
       ['/apps/Extrinsics/', 'Extrinsics'],
+      ['/apps/Staking', 'Staking'],
+      ['/apps/Chainstate', 'Chainstate'],
+      ['/apps/Treasury', 'Treasury'],
+      ['/apps/Toolbox', 'Toolbox'],
+      ['/apps/RPC', 'RPC'],
       ['/apps/Settings/', 'Settings'],
     ]
   }
