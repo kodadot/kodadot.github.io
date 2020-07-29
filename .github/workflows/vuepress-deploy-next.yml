@@ -1,0 +1,24 @@
+name: Build and Deploy VuePress
+
+on:
+  push:
+    branches: [ docs-master ]
+  pull_request:
+    branches: [ docs-master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout docs-master
+      uses: kodadot/kodadot.github.io@docs-master
+
+    - name: vue-press deploy
+      uses: jenkey2011/vuepress-deploy@1.0.1
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_REPO: kodadot/kodadot.github.io
+        TARGET_BRANCH: master
+        BUILD_SCRIPT: yarn && yarn docs:build
+        BUILD_DIR: .
