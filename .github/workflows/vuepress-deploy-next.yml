@@ -1,8 +1,8 @@
 name: Build and Deploy VuePress
 
 on:
-#  push:
-#    branches: [ docs-master ]
+  push:
+    branches: [ docs-master ]
   pull_request:
     branches: [ docs-master ]
 
