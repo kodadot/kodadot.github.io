@@ -1,7 +1,7 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Build Vuepress (nonworking)
+name: Build Vuepress (nonworking, dead)
 
 on:
 #  push:
@@ -15,11 +15,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
+  
     - name: Build and Deploy
-      uses: grasilife/github-pages-deploy-action@master
+      uses: grasilife/github-pages-deploy-action@v1.2
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: docs-master # The branch the action should deploy from.
         BRANCH: master # The branch the action should deploy to.
         FOLDER: build # The folder the action should deploy.
-        BUILD_SCRIPT: npm install && npm run-script build # The build script the action should run prior to deploying.
+        BUILD_SCRIPT: yarn && yarn docs:build # The build script the action should run prior to deploying.
