@@ -1,4 +1,4 @@
-## 👀 Overview 
+## Overview 👀  
 
 Explore chain name, best block, finalized blocks, total isuance, number of validators, state of epoch & era, deep dive in too finalized blocks, see hash of parent block, extrinsics and state. Next to it explore events happening in extrinsics, i.e. treasury deposit, balance transfers, council votes, democracy events and various governance drive
 
@@ -32,6 +32,8 @@ Various extrinsics and events in that particular block
 
 ## Node Info
 
-At time of writing, it doesn't work as API has changed
-[Demo1](https://twitter.com/KodaDot/status/1254323912047017984) 
-[Demo2](https://twitter.com/yangWao/status/1258089776776908802)
+At time of writing, [it doesn't work as API has changed](https://github.com/polkadot-js/apps/issues/3250)
+
+Supposed look
+- [Demo1](https://twitter.com/KodaDot/status/1254323912047017984) 
+- [Demo2](https://twitter.com/yangWao/status/1258089776776908802)

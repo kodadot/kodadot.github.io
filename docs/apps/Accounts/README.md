@@ -1,4 +1,4 @@
-## 👀 Overview 
+## Overview 👀  
 
 It offers basic functionality like **Create Account** and **Restore from JSON**.
 

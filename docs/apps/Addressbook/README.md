@@ -1,4 +1,4 @@
-## 👀 Overview 
+## Overview 👀  
 
 This is same as Accounts section, but here you will see accounts where they are as external and you don't have keys for operations.
 It's also sortable by tags and name.

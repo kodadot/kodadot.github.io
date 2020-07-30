@@ -16,7 +16,7 @@ tagline:
 
 footer: MIT Licensed | Copyright © 2020 vue-polkadot authors and contributors
 ---
-## VueJS dashboard for Polkadot and Substrate networks
+## VueJS governance dashboard for Polkadot and Substrate networks
 
 This is a collection of Vue.js libraries, utlities and classes that allows for easier use of the Polkadot JS infrastructure inside your apps from Vue apps.
 
@@ -41,11 +41,14 @@ This repository split up into a number of internal packages -
 
 - [Dashboard](/apps) - 📚 Documentation for components
 - [Libraries](https://vue-polkadot.js.org/vue-ui/) - UI utilities, libraries and VueJS components in use across Ppolkadot/Substrate projects 
-- 🐦[Follow us on Twitter](https://twitter.com/KodaDot) for upcoming announcements 😻
 
 ## 🟣 The Polkadot Project
 
-You can read more about the Polkadot Network at [polkadot.network](https://polkadot.network/) and more about the polkadot-js projects at [polkadot.js.org](https://polkadot.js.org)
+You can read more about the 
+- [Polkadot Network](https://polkadot.network/) 
+- [Kusama.network](https://kusama.network/) 
+- [Substrate](https://substrate.dev/)
+- [polkadot.js.org](https://polkadot.js.org)
 
 ## 📁 Github repositories
 
