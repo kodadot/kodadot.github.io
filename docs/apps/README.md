@@ -56,7 +56,11 @@ Sure, your contribution is welcome. Please follow [code of conduct](CODE_OF_COND
 
 
 ## 🐳 Docker
-If you want just to try out our KodaDot on Kusama and have full local setup with local node, we assume you have docker and docker-compose installed
+If you want just to try out our KodaDot on Kusama and have full local setup with local node, we assume you have docker and docker-compose installed. 
+Before starting, make sure your working directory is `apps/dashboard/`. To make so, from root of repository, do `cd dashboard`.
+
+For staking you need to run local node `substrate --dev`
+
 
 ```
 docker-compose pull && docker-compose up
